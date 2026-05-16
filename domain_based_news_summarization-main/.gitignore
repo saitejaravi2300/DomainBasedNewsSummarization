@@ -1,0 +1,39 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+next.user-config.*
+
+# Environment variables
+.env
+.env.*
+backend/.env
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+backend/build/
+backend/whatsnew_backend.egg-info/
+dist/
+build/
+
+# Oversized artifacts not suitable for GitHub direct push
+cnn_dailymail/train.csv
+ml-lab/artifacts/stage_500/checkpoint-63/optimizer.pt
+
+# Exclude heavy research and dataset directories from repository push
+ml-lab/
+cnn_dailymail/
